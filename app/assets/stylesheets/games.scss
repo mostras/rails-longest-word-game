@@ -1,3 +1,35 @@
 // Place all the styles related to the games controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+.redbox {
+  font-family: 'Work Sans', sans-serif;
+  margin: 16px;
+  padding: 1px 12px;
+  background-color: rgba(253, 147, 153, 0.4);
+  border-left: 5px solid rgba(253, 147, 153, 1);
+  color: rgb(30, 30, 30)
+}
+
+.letters {
+  font-size: 18px;
+  font-family: 'Work Sans', sans-serif;
+  background-color: grey;
+  display: flex;
+
+}
+
+p {
+  font-family: 'Work Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}

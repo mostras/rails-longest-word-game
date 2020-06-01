@@ -1,2 +1,14 @@
-<h1>Games#score</h1>
-<p>Find me in app/views/games/score.html.erb</p>
+<h1>Scores</h1>
+
+<p>Your word is:</p>
+<h2><%= @word %></h2>
+<% if @error_letters %>
+  <div class="redbox"><p><%= @error_letters %></p></div>
+<% end %>
+
+<% if @error_english %>
+  <div class="redbox"><p><%= @error_english %></p></div>
+<% end %>
+
+<p>Your score is:</p>
+<p><%= @score %></p>
